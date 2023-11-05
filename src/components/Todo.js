@@ -1,6 +1,8 @@
 import React, { Fragment, useState } from "react";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import "../todo_style.css";
 
-export default function Todo() {
+function Todo() {
   const [inputItem, setInput] = useState("");
   const [listItems, setList] = useState([]);
   // const [isDone, setDone] = useState(false);
@@ -64,3 +66,5 @@ export default function Todo() {
     </Fragment>
   );
 }
+
+export default Todo;

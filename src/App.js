@@ -1,9 +1,16 @@
 import Todo from "./components/Todo";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import UseEffect from "./components/hooks_tuto/UseEffect";
+// import UseState from "./components/hooks_tuto/UseState";
 import "./App.css";
 
 function App() {
-  return <Todo />
+  return (
+    <div>
+      <Todo />
+      {/* <UseState /> */}
+      {/* <UseEffect /> */}
+    </div>
+  );
 }
 
 export default App;
